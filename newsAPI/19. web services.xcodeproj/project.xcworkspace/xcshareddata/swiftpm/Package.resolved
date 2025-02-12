@@ -1,0 +1,33 @@
+{
+  "originHash" : "c4aaabd29bd445b8ab9ae8c2b87c7bfcce66f74cdfcadf0469c6e15ea90b7c78",
+  "pins" : [
+    {
+      "identity" : "izzidateformatter",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Desp0o/izziDateFormatter.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e9431fda38dbeb7b7a6fa3eae49bda6d93c5e7bf"
+      }
+    },
+    {
+      "identity" : "izzigradient",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Desp0o/izziGradient.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5aafc9c55b1f89eed7774a00da9437b2673e2cc0"
+      }
+    },
+    {
+      "identity" : "webservice",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Desp0o/webService.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "893781d3fdb067881df17c659511d8bde4d26a3a"
+      }
+    }
+  ],
+  "version" : 3
+}
