@@ -158,7 +158,7 @@ final class DetailsVC: UIViewController {
         contentView.addSubview(newsDescription)
         newsDescription.translatesAutoresizingMaskIntoConstraints = false
         newsDescription.numberOfLines = 0
-        newsDescription.configureNunitoLabels(text: news.description, fontName: "Nunito-Regular", color: .black, size: 14)
+        newsDescription.configureNunitoLabels(text: news.description ?? "", fontName: "Nunito-Regular", color: .black, size: 14)
         
         NSLayoutConstraint.activate([
             newsDescription.topAnchor.constraint(equalTo: newsPoster.bottomAnchor, constant: 7),

@@ -29,15 +29,15 @@ final class FeedVC: UIViewController, UpdateNewsDelegate {
     }
     
     func setupLoadingLabel() {
-        view.addSubview(loadingLabel)
-        
-        loadingLabel.configureNunitoLabels(text: "Loading...", fontName: "Nunito-Bold", color: .black, size: 20)
-        loadingLabel.textAlignment = .center
-        
-        NSLayoutConstraint.activate([
-            loadingLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            loadingLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor)
-        ])
+//        view.addSubview(loadingLabel)
+//        
+//        loadingLabel.configureNunitoLabels(text: "Loading...", fontName: "Nunito-Bold", color: .black, size: 20)
+//        loadingLabel.textAlignment = .center
+//        
+//        NSLayoutConstraint.activate([
+//            loadingLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+//            loadingLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+//        ])
     }
     
     func setupScreenTitle() {

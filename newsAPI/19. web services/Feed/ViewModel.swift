@@ -36,7 +36,7 @@ final class ViewModel {
   
   func loadNextPage() {
     currentPage += 1
-    let linkApi = "https://newsapi.org/v2/everything?q=bitcoin&pageSize=10&page=\(currentPage)&apiKey=9670879ea1df4f23b16aa2e834f82a66"
+    let linkApi = "https://newsapi.org/v2/everything?q=bitcoin&pageSize=10&page=\(currentPage)&apiKey=815bdd179bed438aa183f4d2a6ff264f"
     
     Task {
       do {
@@ -59,6 +59,9 @@ final class ViewModel {
         await MainActor.run {
           delegate?.updateNewsFeed()
         }
+      }
+      catch {
+        print(error)
       }
     }
   }
